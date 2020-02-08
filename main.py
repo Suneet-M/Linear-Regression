@@ -12,17 +12,6 @@ import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
-
-# In[6]:
-
-
-# dataset.plot(x='Hours', y='Scores', style='o')
-# plt.title('Hours vs Percentage')
-# plt.xlabel('Hours Studied')
-# plt.ylabel('Percentage Score')
-# plt.show()
-
-
 # # Preparing the data
 
 # In[18]:
