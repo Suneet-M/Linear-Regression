@@ -12,40 +12,15 @@ import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
-# In[2]:
-
-
-dataset = pd.read_csv('student_scores.csv')
-
-
-# # EDA
-
-# In[3]:
-
-
-dataset.shape
-
-
-# In[4]:
-
-
-dataset.head()
-
-
-# In[5]:
-
-
-dataset.describe()
-
 
 # In[6]:
 
 
-dataset.plot(x='Hours', y='Scores', style='o')
-plt.title('Hours vs Percentage')
-plt.xlabel('Hours Studied')
-plt.ylabel('Percentage Score')
-plt.show()
+# dataset.plot(x='Hours', y='Scores', style='o')
+# plt.title('Hours vs Percentage')
+# plt.xlabel('Hours Studied')
+# plt.ylabel('Percentage Score')
+# plt.show()
 
 
 # # Preparing the data
@@ -58,6 +33,9 @@ y = dataset.iloc[:, 1].values
 X
 y
 
+
+print(X);
+print(Y);
 
 # In[8]:
 
